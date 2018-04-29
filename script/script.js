@@ -1,6 +1,6 @@
 var NAleatorio;
 var NTentativas;
-limite = 20;
+limite = prompt("Qual é o valor máximo para este jogo?");
 
 function Aleatorio() {
     hoje = new Date();
