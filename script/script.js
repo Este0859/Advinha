@@ -5,7 +5,7 @@ limite = prompt("Qual é o valor máximo para este jogo?");
 function Aleatorio() {
     hoje = new Date();
     num1 = hoje.getTime();
-    num = Math.round(Math.abs(Math.sin(num1) * 1000000)) % limite;
+    num = 1 + Math.round(Math.abs(Math.sin(num1) * 1000000)) % limite;
     //window.alert(num1);
     //window.alert(num);
     return num;
