@@ -14,7 +14,7 @@ function Aleatorio() {
 function Iniciar() {
     NAleatorio = Aleatorio();
     NTentativas = 0;
-    document.Fjogo.Saida.value = 'Estou a pensar num numero entre 0 e ' + (limite) + '. Tenta adivinhar qual é?';
+    document.Fjogo.Saida.value = 'Estou a pensar num numero entre 1 e ' + (limite) + '. Tenta adivinhar qual é?';
     document.Fjogo.Tentativas.value = NTentativas;
     document.Fjogo.AltoBaixo.value = '';
     document.Fjogo.Entrada.value = '';
